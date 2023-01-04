@@ -1,4 +1,4 @@
-const baseURL="http://api.weatherapi.com/v1/forecast.json?key=f789c41ec5a54f6793253848230201";
+const baseURL="https://api.weatherapi.com/v1/forecast.json?key=f789c41ec5a54f6793253848230201";
 const searchtag=document.getElementById('searchtag')
 const searchButton=document.getElementById('searchButton')
 const alertPlaceholder=document.getElementById('liveAlertPlaceholder')
