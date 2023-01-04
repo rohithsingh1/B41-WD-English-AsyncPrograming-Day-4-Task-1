@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap');
+
+.container-fluid,.col-md-6,.col-md-4,.col-md-8,.col-md-5,.col-md-7,.col-sm-7,.col-sm-5,.col-3,.col-9{
+    padding: 0px;
+}
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.alertdiv{
+    display: none;
+}
+.row{
+    margin: 0px;
+}
+
+.mainDiv{
+    height: 65vh;
+    background-color: #3498db;
+    color: white;
+}
+
+
+
+#time{
+    margin: 0px;
+    padding: 0.3rem 0rem 0.3rem 0rem;
+}
+#country,.float-end{
+    margin: 0px;
+    padding: 0.3rem 0.3rem 0rem 0rem;
+}
+
+sup{
+    font-size: 1.2rem;
+    padding: 0px !important;
+}
+.mainDiv .float-end{
+    line-height: 0.4rem;
+}
+
+#tablediv{
+    padding: 0px;
+    padding-left: 0.8rem;
+    color: white;
+}
+table{
+    width: 100%;
+}
+table tr{
+    color: white;
+}
+
+.inputdiv{
+    position: relative;
+    width: 65%;
+    margin: auto;
+}
+.inputdiv i.fa-solid.fa-cloud-sun {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    padding-top: 0.6rem;
+    padding-left: 0.4rem;
+    font-size: 1.3rem;
+    color: #0984e3;
+}
+#searchtag{
+    padding-left: 2.5rem;
+}
+.inputdiv i.fa-solid.fa-magnifying-glass {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding-top: 0.6rem;
+    padding-right: 0.6rem;
+    font-size: 1.3rem;
+    color: #0984e3;
+}
+
+
+
+
+
+
+
+
+
+#dayrow{
+    background-color: #2c3e50;
+}
+
+#carouselExample .card{
+    background-color: #2c3e50;
+    color: white;
+    border-color: white;
+    border-width: 0.13rem;
+    flex-basis:content;
+    height: fit-content;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+#carouselExample .presentday{
+    box-shadow: 0 0 1.4rem 1.4rem #34495e;
+}
+
+
+
+
+
+
+@media (min-width:576px) and (max-width:768px){
+    .inputdiv{
+        width: 100%;
+    }
+}
+
+@media (max-width:575px){
+    #tablediv div{
+        padding-left: 16%;
+    }
+    .inputdiv {
+        width: 80%;
+    }
+}
+
+@media (max-width:741px){
+    .mainDiv #time{
+        font-size: 1.7rem;
+    }
+}
+
+
+
